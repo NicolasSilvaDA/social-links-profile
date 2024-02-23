@@ -100,4 +100,4 @@ For my future projects, I want to be able to work with flexbox and gridbox more,
 
 ## Acknowledgments
 
-I'd like to thank @danielmrz-dev for the tips on centering the elements on the page. It was a great help and a great learning experience.
+I'd like to thank [@danielmrz-dev](https://github.com/danielmrz-dev) for the tips on centering the elements on the page. It was a great help and a great learning experience.
