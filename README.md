@@ -51,7 +51,7 @@ For the profile photo, I used a div instead of img because of the flexibility th
 ```
 ```css
 div#prof-photo {
-    margin: 0 auto;
+    margin: auto;
     width: 200px;
     height: 200px;
     background-image: url("[image-url]");
@@ -61,15 +61,15 @@ div#prof-photo {
 }
 ```
 
-While adjusting the buttons on the container, I felt like putting a flexbox on the container wasn't the best solution because all the other elements would be modified by it, so instead of doing this, I put all the buttons inside a div and gave this specific element a flexbox, that way was the best I could think at the moment and it worked really well to me.
+While adjusting the buttons on the container, I felt like putting a flexbox on the main container wasn't the best solution because all the other elements would be modified by it, so instead of doing this, I put all the buttons inside a div and gave this specific element a flexbox, that way was the best I could think at the moment and it worked really well to me.
 
 ```html
 <div id="buttons">
-            <a class="links" href="[github profile link]" target="_blank"><button class="btns">GitHub</button></a>
+            <a class="btns" href="[github profile link]" target="_blank">GitHub</a>
 
-            <a class="links" href="[linkedin profile link]" target="_blank"><button class="btns">LinkedIn</button></a>
+            <a class="btns" href="[linkedin profile link]" target="_blank">LinkedIn</a>
 
-            <a class="links" href="[frontend mentor profile link]" target="_blank"><button class="btns">Frontend Mentor</button></a>
+            <a class="btns" href="[frontend mentor profile link]" target="_blank">Frontend Mentor</a>
 </div>
 ```
 ```css
