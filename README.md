@@ -13,6 +13,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -96,3 +97,7 @@ For my future projects, I want to be able to work with flexbox and gridbox more,
 - GitHub - [@NicolasSilvaDA](https://github.com/NicolasSilvaDA)
 - Frontend Mentor - [@NicolasSilvaDA](https://www.frontendmentor.io/profile/NicolasSilvaDA)
 - LinkedIn - [Nicolas Silva](https://www.linkedin.com/in/nicolas-silva-araujo/)
+
+## Acknowledgments
+
+I'd like to thank @danielmrz-dev for the tips on centering the elements on the page. It was a great help and a great learning experience.
