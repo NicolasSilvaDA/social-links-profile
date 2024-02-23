@@ -1,0 +1,81 @@
+:root{
+    --primary: hsl(75, 94%, 57%);
+    --whitec: hsl(0, 0%, 100%);
+    --greyc: hsl(0, 0%, 24%);
+    --darkgreyc: hsl(0, 0%, 12%);
+    --offblack: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--offblack);
+    font-family: Inter;
+    font-size: 14px;
+}
+
+div#content {
+    background-color: var(--darkgreyc);
+    width: 350px;
+    height: fit-content;
+    border-radius: 12px;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+div#prof-photo {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("images/323206601_6520507054645032_2368256724666722424_n.jpg");
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+h1#name {
+    color: var(--whitec);
+    text-align: center;
+    font-weight: 600;
+}
+
+h3#location {
+    color: var(--primary);
+    text-align: center;
+    transform: translateY(-12px);
+}
+
+p#details {
+    color: var(--whitec);
+    text-align: center;
+}
+
+div#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    margin: 8px 0;
+    padding: 15px;
+    min-width: 325px;
+    background-color: var(--greyc);
+    color: var(--whitec);
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    transition: 0.1s;
+}
+
+.btns:hover {
+    background-color: var(--offblack);
+}
+
+.btns:active {
+    background-color: var(--primary);
+    color: var(--greyc);
+}
